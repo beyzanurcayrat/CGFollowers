@@ -21,11 +21,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window?.windowScene = windowScene
         window?.rootViewController = createTabbar()
         window?.makeKeyAndVisible()
-    
-        //test
-        //test2
-        //test3
-        //test4
+
+        
         
     }
     
