@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3628AC932B7E8CF5002C0676 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3628AC922B7E8CF5002C0676 /* UIHelper.swift */; };
 		364118542B6E5FFB00305849 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364118532B6E5FFB00305849 /* AppDelegate.swift */; };
 		364118562B6E5FFB00305849 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364118552B6E5FFB00305849 /* SceneDelegate.swift */; };
 		3641185D2B6E5FFC00305849 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3641185C2B6E5FFC00305849 /* Assets.xcassets */; };
@@ -29,6 +30,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3628AC922B7E8CF5002C0676 /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
 		364118502B6E5FFB00305849 /* CGFollowers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CGFollowers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		364118532B6E5FFB00305849 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		364118552B6E5FFB00305849 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -158,6 +160,7 @@
 			isa = PBXGroup;
 			children = (
 				36C8EDA72B71043A008F91D5 /* ErrorMessage.swift */,
+				3628AC922B7E8CF5002C0676 /* UIHelper.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -245,6 +248,7 @@
 				3641186A2B6E634600305849 /* FavoritesListVC.swift in Sources */,
 				36C8ED8D2B702777008F91D5 /* GFButton.swift in Sources */,
 				36C8ED992B70E1E7008F91D5 /* UIViewController+Ext.swift in Sources */,
+				3628AC932B7E8CF5002C0676 /* UIHelper.swift in Sources */,
 				36C8EDAE2B711245008F91D5 /* GFAvatarImageView.swift in Sources */,
 				36C8ED952B704E8D008F91D5 /* GFBodyLabel.swift in Sources */,
 				364118682B6E630A00305849 /* SearchVC.swift in Sources */,
