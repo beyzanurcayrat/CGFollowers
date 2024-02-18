@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3628AC932B7E8CF5002C0676 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3628AC922B7E8CF5002C0676 /* UIHelper.swift */; };
 		3628AC9B2B816F2B002C0676 /* GFEmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3628AC9A2B816F2B002C0676 /* GFEmptyStateView.swift */; };
+		3628AC9D2B8278CA002C0676 /* UserInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3628AC9C2B8278CA002C0676 /* UserInfoVC.swift */; };
 		364118542B6E5FFB00305849 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364118532B6E5FFB00305849 /* AppDelegate.swift */; };
 		364118562B6E5FFB00305849 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364118552B6E5FFB00305849 /* SceneDelegate.swift */; };
 		3641185D2B6E5FFC00305849 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3641185C2B6E5FFC00305849 /* Assets.xcassets */; };
@@ -33,6 +34,7 @@
 /* Begin PBXFileReference section */
 		3628AC922B7E8CF5002C0676 /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
 		3628AC9A2B816F2B002C0676 /* GFEmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFEmptyStateView.swift; sourceTree = "<group>"; };
+		3628AC9C2B8278CA002C0676 /* UserInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoVC.swift; sourceTree = "<group>"; };
 		364118502B6E5FFB00305849 /* CGFollowers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CGFollowers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		364118532B6E5FFB00305849 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		364118552B6E5FFB00305849 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -153,6 +155,7 @@
 				364118672B6E630A00305849 /* SearchVC.swift */,
 				36C8ED902B7038FD008F91D5 /* FollowerListVC.swift */,
 				364118692B6E634600305849 /* FavoritesListVC.swift */,
+				3628AC9C2B8278CA002C0676 /* UserInfoVC.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -313,6 +316,7 @@
 				364118542B6E5FFB00305849 /* AppDelegate.swift in Sources */,
 				36C8ED972B704F55008F91D5 /* GFAlertVC.swift in Sources */,
 				364118562B6E5FFB00305849 /* SceneDelegate.swift in Sources */,
+				3628AC9D2B8278CA002C0676 /* UserInfoVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
