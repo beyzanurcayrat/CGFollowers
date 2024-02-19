@@ -36,22 +36,18 @@ class UserInfoVC: UIViewController {
     }
     
     func getUserInfo() {
-        print(" \(username)")
-
+       
         NetworkManager.shared.getUserInfo(for: username) { [weak self] result in
             guard let self = self else { return }
             
             switch result {
             case.success(let user):
                     
-                     print("Public Repos: \(user.publicRepos)")
-                     print("Public Gists: \(user.publicGists)")
-                
                 DispatchQueue.main.async {
                     self.add(childVC: GFUserInfoHeaderVC(user: user), to: self.headerView)
                     self.add(childVC: GFRepoItemVC(user: user), to: self.itemViewOne)
                     self.add(childVC: GFFollowerItemVC(user: user), to: self.itemViewTwo)
-                    self.dateLabel.text = "Date to be entered"
+                    self.dateLabel.text = "Github since \(user.createdAt.convertToDisplayFormat())"
 
                 }
                 

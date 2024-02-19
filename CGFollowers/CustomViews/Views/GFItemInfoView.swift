@@ -47,7 +47,7 @@ class GFItemInfoView: UIView {
             titleLabel.heightAnchor.constraint(equalToConstant: 18),
             
             countLabel.topAnchor.constraint(equalTo: symbolImageView.bottomAnchor, constant: 4),
-            countLabel.leadingAnchor.constraint(equalTo: self.trailingAnchor),
+            countLabel.leadingAnchor.constraint(equalTo: self.leadingAnchor),
             countLabel.trailingAnchor.constraint(equalTo: self.trailingAnchor),
             countLabel.heightAnchor.constraint(equalToConstant: 18)
             
@@ -73,8 +73,8 @@ class GFItemInfoView: UIView {
             titleLabel.text       = "Following"
         }
         
-        countLabel.text           =   String(count)
-        
+        countLabel.text = String(count)
+
     }
 }
 
