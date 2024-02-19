@@ -19,6 +19,7 @@ class GFItemInfoView: UIView {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
+        configure()
     }
     
     required init?(coder: NSCoder) {
@@ -72,7 +73,7 @@ class GFItemInfoView: UIView {
             titleLabel.text       = "Following"
         }
         
-        countLabel.text       = String(count)
+        countLabel.text           =   String(count)
         
     }
 }
