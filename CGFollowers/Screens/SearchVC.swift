@@ -94,7 +94,6 @@ class SearchVC: UIViewController {
 
 extension SearchVC: UITextFieldDelegate {
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
-        print("Did Tap Return")
         pushFollowerListVC()
         return true
     }
